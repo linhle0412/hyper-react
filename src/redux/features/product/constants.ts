@@ -1,0 +1,6 @@
+export enum ProductActionTypes {
+  API_RESPONSE_SUCCESS = '@@product/API_RESPONSE_SUCCESS',
+  API_RESPONSE_ERROR = '@@product/API_RESPONSE_ERROR',
+  FETCH_PRODUCTS = '@@product/FETCH_PRODUCTS',
+  REMOVE_PRODUCTS = '@@product/REMOVE_PRODUCTS',
+}
